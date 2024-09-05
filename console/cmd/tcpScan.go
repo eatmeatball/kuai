@@ -14,7 +14,7 @@ import (
 func init() {
 	cmd := &cobra.Command{
 		Use:   "tcp_scan",
-		Short: "",
+		Short: "tcp_scan --ip=127.0.0.1 --port1=80 --port2=81",
 		Run:   runTcpScan,
 		// Args:  cobra.ExactArgs(1), // 只允许且必须传 1 个参数
 	}
